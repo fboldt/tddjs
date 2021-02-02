@@ -25,7 +25,7 @@ test('string with two values', () => {
     expect(value).toBe(3);
 });
 
-test('handle new lines', () => {
-    const value = new StringCalculator().add("1\n2,3");
+test('string with three values', () => {
+    const value = new StringCalculator().add("1,2,3");
     expect(value).toBe(6);
 });
